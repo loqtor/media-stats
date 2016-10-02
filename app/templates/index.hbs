@@ -1,0 +1,15 @@
+<h2>Latest posts</h2>
+<ul>
+  {{#each data as | post |}}
+    <li>{{post.id}}</li>
+    <li>{{post.message}}</li>
+  {{/each}}
+</ul>
+
+<h2>Posts liked by friend</h2>
+{{#each-in postsLikedByFriend as | id data |}}
+  <h3>Posts liked by {{data.info.name}}</h3>
+  {{#each data.posts as | post |}}
+    <p>{{post.message}}</p>
+  {{/each}}
+{{/each-in}}

@@ -1,0 +1,8 @@
+{
+  "name": "media-stats",
+  "dependencies": {
+    "ember": "~2.8.0",
+    "ember-cli-shims": "0.1.1",
+    "lodash": "~4.16.2"
+  }
+}
