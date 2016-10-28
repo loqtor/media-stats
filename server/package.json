@@ -1,0 +1,25 @@
+{
+  "name": "MSL",
+  "version": "1.0.0",
+  "description": "Stand alone mock server for MSL Studylink Phase 2",
+  "private": true,
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": "",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "body-parser": "^1.14.0",
+    "errorhandler": "^1.4.2",
+    "express": "^4.13.3",
+    "glob": "^4.5.3",
+    "hbs": "^3.1.1",
+    "lodash": "^3.10.1",
+    "morgan": "^1.6.1",
+    "route": "^0.2.5"
+  }
+}
