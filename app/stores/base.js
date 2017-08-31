@@ -9,6 +9,9 @@ const {
 export default Em.Object.extend({
   _stores: {},
 
+  /*
+   * I'm testing the deployment, mate.
+   */
   _getAdapter(modelName) {
     return this.container.lookup(`adapter:${modelName}`);
   },
